@@ -18,9 +18,8 @@ Download the library into your project and load the `dom_toretto.js` file as a s
 
 ### $l
 All of the functions of DOMToretto are accessed through the global window variable `$l`.  
-Usage examples:
-*`$l("div")` returns an array of all `<div></div>`s as DOM Node elements inside a DOMNodeCollection object.
-*
+For example, `$l("div")` returns an array of all `<div></div>`s as DOM Node elements inside a DOMNodeCollection object, which in turn gives them access to all functions of DOMToretto.
+$l can also queue functions to be run in sequence once document readyState is complete.
 ### $l.ajax
 Sends an HTTP request which returns a new Promise.
 ### addClass()
