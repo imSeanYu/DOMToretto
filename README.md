@@ -51,5 +51,7 @@ Removes class from each element of array of DOM Node objects.
 
 ## DOMToretto in action!
 Check out my Snake game demo to see DOMToretto in action! (in the background, ofcourse...)
+
 **This portion will be updated later once I finish working on the game.
+
 **The game is sort-of finished in this repo: https://github.com/imSeanYu/DOMToretto_SnakeDemo
