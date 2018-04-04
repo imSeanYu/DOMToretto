@@ -32,6 +32,8 @@ If `value` is given, and the type of value is a string, it sets the `name` attri
 If no `value` is given, it returns the `name` attribute of the first element of DOMNodeCollection.
 ### children()
 Returns all direct children of all HTMLElements of DOMNodeCollection array.
+### each()
+Iterate through each DOM Node object of the DOMNodeCollection array and applies the callback function passed in as an argument.
 ### empty()
 Sets the innerHTML of each DOMNodeCollection element to an empty string "".
 ### html()
