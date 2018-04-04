@@ -146,6 +146,10 @@ class DOMNodeCollection {
     this.array = array;
   }
 
+  each(callback) {
+    this.array.forEach(callback);
+  }
+
   html(string) {
     if (!string) {
       let firstEl = this.array[0];
