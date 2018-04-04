@@ -40,11 +40,11 @@ class DOMNodeCollection {
     }
   }
 
-  attr(name, value) {
-    if (typeof value === "string") {
-      this.array.forEach((el) => el.setAttribute(name, value));
+  attr(name, value = null) {
+    if (value === null) {
+      return this.elements[0].getAttribute(name);
     } else {
-      return this.array[0].getAttribute(name);
+      this.each((el) => el.setAttribute(name, value));
     }
   }
 
